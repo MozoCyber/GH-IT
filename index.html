@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GH-IT — Réparation informatique & Maintenance vidéosurveillance</title>
+<meta name="description" content="GH-IT : réparation de matériel informatique et maintenance de caméras de surveillance. Diagnostic gratuit, devis clair, garantie sur interventions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </span>
+      <span>GH-IT<small data-i18n="nav.tagline">INFORMATIQUE & VIDÉOSURVEILLANCE</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active" data-i18n="nav.home">Accueil</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="about.html" data-i18n="nav.about">À propos</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button data-lang="fr">FR</button>
+        <button data-lang="en">EN</button>
+      </div>
+      <a href="contact.html" class="btn btn-primary nav-cta" data-i18n="nav.cta">Demander un diagnostic</a>
+      <button class="burger" aria-label="menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-panel">
+    <a href="index.html" data-i18n="nav.home">Accueil</a>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="about.html" data-i18n="nav.about">À propos</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow on-dark"><span class="rec-dot"></span><span data-i18n="hero.eyebrow">Statut système : opérationnel</span></div>
+      <h1 data-i18n-html="hero.h1_html">On répare vos machines. <em>On surveille</em> ce qui compte.</h1>
+      <p class="lead" data-i18n="hero.lead">GH-IT intervient sur vos ordinateurs, serveurs et périphériques en panne, et assure l'installation et la maintenance de vos caméras de surveillance.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta1">Demander un diagnostic</a>
+        <a href="tel:+21620123456" class="btn btn-ghost-dark" data-i18n="hero.cta2">Appeler un technicien</a>
+      </div>
+    </div>
+
+    <div class="hero-panel viewfinder on-dark">
+      <span class="vf-tr"></span><span class="vf-br"></span>
+      <div class="panel-head">
+        <span data-i18n="hero.panel.title">diagnostic_live.log</span>
+        <div class="panel-dots"><span></span><span></span><span></span></div>
+      </div>
+      <div class="panel-body">
+        <div class="scan-row"><span data-i18n="hero.row1.label">Carte mère — PC Bureau</span><span class="status ok" data-i18n="hero.row1.status">Réparé</span></div>
+        <div class="scan-row"><span data-i18n="hero.row2.label">Caméra dôme — Entrepôt B</span><span class="status warn" data-i18n="hero.row2.status">En cours</span></div>
+        <div class="scan-row"><span data-i18n="hero.row3.label">Réseau NVR — 8 caméras</span><span class="status ok" data-i18n="hero.row3.status">Configuré</span></div>
+        <div class="scan-row"><span data-i18n="hero.row4.label">SSD — récupération data</span><span class="status info" data-i18n="hero.row4.status">Diagnostic</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="stat-strip">
+      <div><div class="num" data-i18n="stat1.num">500+</div><div class="label" data-i18n="stat1.label">Interventions réalisées</div></div>
+      <div><div class="num" data-i18n="stat2.num">10 ans</div><div class="label" data-i18n="stat2.label">D'expérience terrain</div></div>
+      <div><div class="num" data-i18n="stat3.num">24/7</div><div class="label" data-i18n="stat3.label">Astreinte caméras</div></div>
+      <div><div class="num" data-i18n="stat4.num">98%</div><div class="label" data-i18n="stat4.label">Clients satisfaits</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="svc.eyebrow">Nos services</div>
+      <h2 data-i18n="svc.title">Deux métiers, une seule exigence : que ça remarche.</h2>
+      <p data-i18n="svc.lead">Du dépannage ponctuel au contrat de maintenance, chaque intervention est diagnostiquée, chiffrée et garantie.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc1.code">REP — 01</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 21h8M12 16v5"/></svg></div>
+        <h3 data-i18n="svc1.title">Réparation PC & Laptop</h3>
+        <p data-i18n="svc1.desc">Pannes matérielles, écrans cassés, claviers, ventilation, surchauffe, cartes mères et alimentations.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.onsite">Sur site</span><span data-i18n="svc.tag.workshop">Atelier</span><span data-i18n="svc.tag.warranty">Garantie</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc2.code">REP — 02</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg></div>
+        <h3 data-i18n="svc2.title">Récupération de données</h3>
+        <p data-i18n="svc2.desc">Disques durs et SSD défaillants, corbeille vidée, partitions perdues : diagnostic avant toute intervention.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.workshop">Atelier</span><span data-i18n="svc.tag.urgent">Urgence possible</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc3.code">CAM — 01</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div>
+        <h3 data-i18n="svc3.title">Installation caméras</h3>
+        <p data-i18n="svc3.desc">Étude des points de vue, câblage, configuration NVR/DVR, accès à distance depuis votre téléphone.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.onsite">Sur site</span><span data-i18n="svc.tag.remote">À distance</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc4.code">CAM — 02</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></svg></div>
+        <h3 data-i18n="svc4.title">Maintenance vidéosurveillance</h3>
+        <p data-i18n="svc4.desc">Nettoyage optique, vérification de l'enregistrement, remplacement de caméras, mise à jour des systèmes.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.onsite">Sur site</span><span data-i18n="svc.tag.warranty">Garantie</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc5.code">NET — 01</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="8" width="20" height="8" rx="1"/><path d="M6 16v3M12 16v3M18 16v3"/><path d="M6 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/></svg></div>
+        <h3 data-i18n="svc5.title">Réseau & câblage</h3>
+        <p data-i18n="svc5.desc">Câblage structuré, switchs, routeurs et Wi-Fi dimensionnés pour vos caméras et vos postes de travail.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.onsite">Sur site</span></div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-code" data-i18n="svc6.code">MNT — 01</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 data-i18n="svc6.title">Contrats de maintenance</h3>
+        <p data-i18n="svc6.desc">Visites planifiées, priorité d'intervention et tarifs préférentiels sur pièces pour les professionnels.</p>
+        <div class="tag-list"><span data-i18n="svc.tag.warranty">Garantie</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS (dark) ============ -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow on-dark" data-i18n="proc.eyebrow">Comment ça marche</div>
+      <h2 data-i18n="proc.title">De la panne à la solution, en quatre étapes</h2>
+    </div>
+    <div class="process">
+      <div class="process-step">
+        <div class="step-index">01</div>
+        <h4 data-i18n="proc1.title">Diagnostic</h4>
+        <p data-i18n="proc1.desc">Vous décrivez le problème, on l'examine sur site ou en atelier, gratuitement dans la majorité des cas.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-index">02</div>
+        <h4 data-i18n="proc2.title">Devis clair</h4>
+        <p data-i18n="proc2.desc">Un chiffrage détaillé, sans surprise, avant toute réparation ou installation.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-index">03</div>
+        <h4 data-i18n="proc3.title">Intervention</h4>
+        <p data-i18n="proc3.desc">Réparation, installation ou maintenance réalisée par nos techniciens, chez vous ou en atelier.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-index">04</div>
+        <h4 data-i18n="proc4.title">Test & garantie</h4>
+        <p data-i18n="proc4.desc">Contrôle final et garantie écrite sur les pièces et la main d'œuvre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="why.eyebrow">Pourquoi GH-IT</div>
+      <h2 data-i18n="why.title">Une équipe technique, pas un simple dépanneur</h2>
+    </div>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/></svg></div>
+        <div><h4 data-i18n="why1.title">Techniciens qualifiés</h4><p data-i18n="why1.desc">Formés à la fois sur le matériel informatique et les systèmes de vidéosurveillance IP et analogiques.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <div><h4 data-i18n="why2.title">Délais courts</h4><p data-i18n="why2.desc">Diagnostic sous 24h et interventions urgentes pour les caméras en panne ou les postes bloqués.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg></div>
+        <div><h4 data-i18n="why3.title">Pièces garanties</h4><p data-i18n="why3.desc">Pièces d'origine ou compatibles certifiées, garanties sur toutes les réparations effectuées.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="f-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H5.17L4 17.17z"/></svg></div>
+        <div><h4 data-i18n="why4.title">Suivi transparent</h4><p data-i18n="why4.desc">Un devis avant chaque intervention et un rapport clair après chaque visite.</p></div>
+      </div>
+    </div>
+
+    <div class="trust-strip">
+      <span data-i18n="trust1">Pièces garanties</span>
+      <span data-i18n="trust2">Devis gratuit</span>
+      <span data-i18n="trust3">Techniciens certifiés</span>
+      <span data-i18n="trust4">Intervention à domicile</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="section-tight section-cobalt">
+  <div class="container cta-band">
+    <div>
+      <h2 data-i18n="cta.title">Un appareil en panne ou une caméra hors service ?</h2>
+      <p data-i18n="cta.lead">Décrivez-nous le problème, on revient vers vous rapidement avec un diagnostic.</p>
+    </div>
+    <div class="actions">
+      <a href="contact.html" class="btn btn-ghost-dark" style="background:#fff;color:var(--cobalt-dark);border-color:#fff" data-i18n="cta.btn1">Contacter GH-IT</a>
+      <a href="services.html" class="btn btn-ghost-dark" data-i18n="cta.btn2">Voir les services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom:14px;">
+          <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+          <span style="color:#fff">GH-IT</span>
+        </div>
+        <p data-i18n="footer.tagline">Réparation informatique et maintenance de vidéosurveillance, pour particuliers et professionnels.</p>
+      </div>
+      <div>
+        <h5 data-i18n="footer.nav">Navigation</h5>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="about.html" data-i18n="nav.about">À propos</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="footer.services">Services</h5>
+        <ul>
+          <li><a href="services.html" data-i18n="footer.svc1">Réparation PC</a></li>
+          <li><a href="services.html" data-i18n="footer.svc2">Récupération de données</a></li>
+          <li><a href="services.html" data-i18n="footer.svc3">Installation caméras</a></li>
+          <li><a href="services.html" data-i18n="footer.svc4">Maintenance vidéosurveillance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="footer.contact">Contact</h5>
+        <ul>
+          <li><a href="mailto:contact@gh-it-services.com">contact@gh-it-services.com</a></li>
+          <li><a href="tel:+21620123456">+216 20 123 456</a></li>
+          <li><span data-i18n="contact.addr.value">Avenue Habib Bourguiba, Tunis, Tunisie</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.rights">© 2026 GH-IT. Tous droits réservés.</span>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6v1.9H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
